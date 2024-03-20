@@ -10,20 +10,20 @@ public class Calculadora {
             n1 = entry.nextInt();
             n2 = entry.nextInt();
             System.out.println("Que accion desea realizar?");
-            System.out.println("1. Suma \n 2. Resta \n 3. Multiplicacion \n 4. Division");
+            System.out.println(" \n 1. Suma \n 2. Resta \n 3. Multiplicacion \n 4. Division");
             option = entry.nextInt();
             switch (option){
                 case 1:
-                    System.out.println(Suma(n1, n2));
+                    System.out.println("El resultado es: " + Suma(n1, n2));
                     break;
                 case 2:
-                    System.out.println(Resta(n1,n2));
+                    System.out.println("El resultado es: " + Resta(n1,n2));
                     break;
                 case 3:
-                    System.out.println(Multiplicacion(n1,n2));
+                    System.out.println("El resultado es: " + Multiplicacion(n1,n2));
                     break;
                 case 4:
-                    System.out.println(Division(n1,n2));
+                    System.out.println("El resultado es: " + Division(n1,n2));
                     break;
                 default:
                     System.out.println("Ingrese una opcion valida.");
